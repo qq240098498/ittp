@@ -30,6 +30,7 @@
 		<jsoup.version>1.11.3</jsoup.version>
 		<poi.version>3.17</poi.version>
 		<velocity.version>1.7</velocity.version>
+		<lombok.version>1.18.0</lombok.version>
 	</properties>
 	
     <!-- 依赖声明 -->
@@ -191,7 +192,15 @@
 	            <artifactId>common-common</artifactId>
 	            <version>${common.version}</version>
 	        </dependency>
-	        
+
+			<!-- lombok -->
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>${lombok.version}</version>
+				<scope>provided</scope>
+			</dependency>
+
         </dependencies>
     </dependencyManagement>
 
