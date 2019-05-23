@@ -28,3 +28,6 @@
 ## 在线体验
 > 地址：http://localhost:8000/common/
 > 用户名/密码:admin/admin123  
+
+## 项目地址
+https://github.com/qq240098498/ittp.git 
